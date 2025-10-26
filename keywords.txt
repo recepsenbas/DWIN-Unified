@@ -1,0 +1,54 @@
+# Types
+Dwin	KEYWORD1
+
+# Core
+dwin_init	KEYWORD2
+dwin_poll	KEYWORD2
+dwin_use_crc	KEYWORD2
+dwin_use_isr_queue	KEYWORD2
+dwin_set_touch_callback	KEYWORD2
+dwin_set_frame_callback	KEYWORD2
+
+# VP I/O
+dwin_write_vp	KEYWORD2
+dwin_read_vp	KEYWORD2
+dwin_write_u16	KEYWORD2
+dwin_write_u32	KEYWORD2
+dwin_write_float	KEYWORD2
+dwin_write_text	KEYWORD2
+dwin_clear_text	KEYWORD2
+dwin_clear_text_wipe	KEYWORD2
+
+# UI & Pages
+dwin_set_page	KEYWORD2
+dwin_get_page_now	KEYWORD2
+dwin_set_brightness	KEYWORD2
+dwin_set_visibility	KEYWORD2
+dwin_overlay_enable	KEYWORD2
+dwin_overlay_disable	KEYWORD2
+dwin_touch_disable_all	KEYWORD2
+dwin_touch_enable_all	KEYWORD2
+
+# Style & Position
+dwin_set_color565	KEYWORD2
+dwin_sp_set_xy	KEYWORD2
+dwin_set_font_size	KEYWORD2
+dwin_set_font_lib	KEYWORD2
+
+# Versions / RTC / Storage
+dwin_get_versions_now	KEYWORD2
+dwin_rtc_write	KEYWORD2
+dwin_rtc_hw_set KEYWORD2
+dwin_nor_store	KEYWORD2
+dwin_nor_load	KEYWORD2
+
+# Graph
+dwin_graph_plot	KEYWORD2
+dwin_graph_clear	KEYWORD2
+
+# Misc
+dwin_beep_1s	KEYWORD2
+dwin_restart    KEYWORD2
+
+DWIN_CMD_WRITE_VP   LITERAL1
+DWIN_VERSION    LITERAL1
