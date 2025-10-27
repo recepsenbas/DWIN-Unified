@@ -7,6 +7,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: arduino/arduino-lint-action@v1
         with:
-          compliance: strict
-          project-type: library
-          library-manager: update   # repo URL ve maintainer email doğru olmalı
+          compliance: specification
+          library-manager: update

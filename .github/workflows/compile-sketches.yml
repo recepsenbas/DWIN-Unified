@@ -11,4 +11,4 @@ jobs:
           libraries: |
             - source-path: .
           sketch-paths: |
-            - examples/BasicDemo
+            - examples/01_UNO_Nano_SoftwareSerial/01_UNO_Nano_SoftwareSerial.ino
