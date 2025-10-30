@@ -1,6 +1,6 @@
 {
   "name": "DWIN Unified",
-  "version": "1.0.5",
+  "version": "1.0.2",
   "description": "Feature-rich DWIN/DGUS/T5L helper (portable C core) with low-SRAM text, VP I/O, CRC16, RTC, NOR, overlay, graphs.",
   "keywords": ["dwin", "dgus", "t5l", "display", "hmi"],
   "authors": [{ "name": "Recep Senbas", "maintainer": true }],
