@@ -1,34 +1,22 @@
 {
   "name": "DWIN Unified",
-  "version": "1.0.0",
-  "description": "Feature‑rich DWIN/DGUS/T5L helper (portable C core) with low‑SRAM text, VP I/O, CRC16, RTC, NOR, overlay, graphs.",
+  "version": "1.0.2",
+  "description": "Feature-rich DWIN/DGUS/T5L helper (portable C core) with low-SRAM text, VP I/O, CRC16, RTC, NOR, overlay, graphs.",
   "keywords": ["dwin", "dgus", "t5l", "display", "hmi"],
-  "authors": [
-    { "name": "Recep Senbas", "maintainer": true }
-  ],
+  "authors": [{ "name": "Recep Senbas", "maintainer": true }],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/recepsenbas/DWIN-Unified"
-  },
-  "frameworks": ["arduino", "stm32cube"],
+  "repository": { "type": "git", "url": "https://github.com/recepsenbas/DWIN-Unified" },
+
+  "frameworks": ["arduino"],
   "platforms": ["atmelavr", "espressif32", "ststm32"],
   "headers": ["dwin.h"],
-  "build": {
-    "srcFilter": [
-      "+<src/>",
-      "+<ports/stm32/>",
-      "-<ports/stm32/examples/>"
-    ]
-  },
+
   "export": {
     "exclude": [
-      "extras/",
       ".github/",
-      "ports/stm32/examples/",
-      "hmi/",
+      "ports/",
       "DWIN_SET*/",
-      "DWIN_SET-*.zip"
+      "*.zip"
     ]
   }
 }

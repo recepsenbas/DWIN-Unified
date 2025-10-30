@@ -5,10 +5,10 @@
  * DWIN Unified — ESP32 (Serial2 RX=16, TX=17)
  * ------------------------------------------------------------
  * Load the HMI (panel side)(optional)
- *  This step is **not required** to use the library. The sample **DWIN_SET** image simply helps you
+ *  This step is not required to use the library. The sample DWIN_SET image simply helps you
  *    - Download the HMI package (DWIN_SET) from Releases:
  *      https://github.com/recepsenbas/DWIN-Unified/releases/latest
- *    - Unzip; copy the folder **DWIN_SET/** to the **root** of a FAT32 microSD.
+ *    - Unzip; copy the folder DWIN_SET/ to the root of a FAT32 microSD.
  *    - Power OFF the panel → insert the card → power ON → wait for update → remove card.
  *
  * Connection:

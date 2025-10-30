@@ -6,10 +6,10 @@
  * DWIN Unified — UNO/Nano (SoftwareSerial D8/D9)
  * -----------------------------------------------
  * Load the HMI (panel side)(optional)
- *  This step is **not required** to use the library. The sample **DWIN_SET** image simply helps you
+ *  This step is not required to use the library. The sample DWIN_SET image simply helps you
  *    - Download the HMI package (DWIN_SET) from Releases:
  *      https://github.com/recepsenbas/DWIN-Unified/releases/latest
- *    - Unzip; copy the folder **DWIN_SET/** to the **root** of a FAT32 microSD.
+ *    - Unzip; copy the folder DWIN_SET/ to the root of a FAT32 microSD.
  *    - Power OFF the panel → insert the card → power ON → wait for update → remove card.
  *
  * Connect the DWIN Display to an UNO or Nano using SoftwareSerial.:
@@ -81,7 +81,7 @@ static void on_frame(Dwin *, const uint8_t *f, size_t len)
 void setup()
 {
     pinMode(LED_BUILTIN, OUTPUT);
-    Serial.begin(115200);   // Serial monitor
+    Serial.begin(115200);     // Serial monitor
     dwinSerial.begin(115200); // DWIN Display
     dwinSerial.listen();
     delay(200);

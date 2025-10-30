@@ -11,7 +11,7 @@
  * 1) Load the HMI (panel side)
  *    - Download the HMI package (DWIN_SET) from Releases:
  *      https://github.com/recepsenbas/DWIN-Unified/releases/latest
- *    - Unzip; copy the folder **DWIN_SET/** to the **root** of a FAT32 microSD.
+ *    - Unzip; copy the folder DWIN_SET/ to the root of a FAT32 microSD.
  *    - Power OFF the panel → insert the card → power ON → wait for update → remove card.
  *
  * 2) Wire the Nano to the DWIN panel
@@ -24,7 +24,7 @@
  *      https://github.com/recepsenbas/DWIN-T5L-SDCC-Template/blob/main/artifacts/v0.1.1/T5L51_9600_CrcOff_ResponseOn_noRTC.bin
  *
  * 3) Upload this sketch
- *    - Open Serial Monitor at **115200** for logs (USB serial).
+ *    - Open Serial Monitor at 115200 for logs (USB serial).
  *    - The demo will showcase: page switching, overlay/touch routing,
  *      text write & wipe clear, graphs, RTC/NOR flash, icon move,
  *      color & visibility control — so you can try every feature quickly.

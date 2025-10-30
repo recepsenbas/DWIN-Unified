@@ -1,3 +1,4 @@
+[![arduino-library-badge](https://www.ardu-badge.com/badge/DWIN%20Unified.svg?version=1.0.2)](https://www.ardu-badge.com/DWIN%20Unified)
 # DWIN Unified
 
 **Feature‑rich, easy‑to‑use DWIN DGUS/T5L library** — portable C core, tiny RAM footprint, and practical high‑level APIs for real projects.
@@ -162,7 +163,7 @@ For a step‑by‑step STM32 setup (IRQ enable, file placement, and CMake edits)
 
 ## Releases & HMI
 - **DWIN_SET** images are shipped as **Release assets** (not in the repo).  
-  Latest: https://github.com/recepsenbas/DWIN-Unified/releases/latest
+  Latest: https://github.com/user-attachments/files/23148351/DWIN_SET_v1.0.0.zip
 - Match the sketch baudrate and CRC setting to your module side.
 
 ---
