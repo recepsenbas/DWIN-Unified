@@ -163,7 +163,7 @@ For a step‑by‑step STM32 setup (IRQ enable, file placement, and CMake edits)
 
 ## Releases & HMI
 - **DWIN_SET** images are shipped as **Release assets** (not in the repo).  
-  Latest: https://github.com/user-attachments/files/23148351/DWIN_SET_v1.0.0.zip
+  Latest: https://github.com/user-attachments/files/24968996/DWIN_SET_v1.0.0.zip
 - Match the sketch baudrate and CRC setting to your module side.
 
 ---
