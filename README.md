@@ -16,7 +16,7 @@
 ### 1) Load the HMI (panel) *(optional)*
 This step is **not required** to use the library. The sample **DWIN_SET** image simply helps you *see* the provided examples on the screen and better understand the API. If you already have your own HMI project, you can skip this step.
 Download the **DWIN_SET** image from Releases and update the panel:
-- Latest: https://github.com/user-attachments/files/23148351/DWIN_SET_v1.0.0.zip
+- Latest: https://github.com/user-attachments/files/24968996/DWIN_SET_v1.0.0.zip
 - Unzip → copy **`DWIN_SET/`** to the **root** of a FAT32 microSD (max16GB) → power ON the panel → wait for update → remove card.
 
 ### 2) Wire the UART
